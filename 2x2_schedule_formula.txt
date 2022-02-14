@@ -1,0 +1,26 @@
+     (И (   CurrentDate>=StartDate;  (CurrentDate-StartDate)-(Int((CurrentDate-StartDate)/(WorkDay+OffDay))* (WorkDay+OffDay))<=(WorkDay-1)   )
+=ЕСЛИ(И (   $A9>=B$4;                ($A9-B$4)-              (ЦЕЛОЕ(($A9-B$4)              /СУММ(B$2:B$3))     *СУММ(B$2:B$3))  <=(B$2-1)       )     ;"Раб";"") иначе - нераб
+
+
+WorkDay
+OffDay
+
+StartDate
+CurrentDate
+
+
+Func MonthPrev()
+	$NewDate = _DateAdd('M', +1, _NowCalcDate())
+	$ClndSelectedYear = $MyDate[1]
+	$ClndSelectedMonth = $MyDate[2]
+	$ClndSelectedDay = 1
+
+	$ClndSelectedMonthFirstDay = $ClndSelectedYear & "/" & $ClndSelectedMonth & "/" & $ClndSelectedDay & " 00:00:00"
+	RenderCalendar()
+	;$NewDate = _DateAdd('d', +1, $ClndSelectedMonthFirstDay)
+	;_DateTimeSplit($NewDate, $MyDate, $MyTime)
+EndFunc
+
+Func MonthNext()
+
+EndFunc
