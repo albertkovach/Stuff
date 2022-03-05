@@ -1,0 +1,24 @@
+     (И (   CurrentDate>=StartDate;  (CurrentDate-StartDate)-(Int((CurrentDate-StartDate)/(WorkDay+OffDay))* (WorkDay+OffDay))<=(WorkDay-1)   )
+=ЕСЛИ(И (   $A9>=B$4;                ($A9-B$4)-              (ЦЕЛОЕ(($A9-B$4)              /СУММ(B$2:B$3))     *СУММ(B$2:B$3))  <=(B$2-1)       )     ;"Раб";"") иначе - нераб
+
+
+Global $StartDate = "2019/02/02 00:00:00"
+Global $DaysAmount
+Global $WorkDay = 2
+Global $OffDay = 2
+
+$DaysAmount = _DateDiff( 'D',$StartDate, $InternalCycleDate)
+
+If $InternalCycleDate >= $StartDate Then
+	If $DaysAmount-(Int($DaysAmount/($WorkDay+$OffDay))* ($WorkDay+$OffDay)) <= ($WorkDay-1) Then
+		GUICtrlSetBkColor ($_ControlId, 0xa2c4c9 )
+		If $MyDate[2] = $ClndSelectedMonth Then
+			$ClndrWorkdayCount = $ClndrWorkdayCount +1
+		EndIf
+	Else
+		GUICtrlSetBkColor ($_ControlId, 0xeeeeee )
+		If $MyDate[2] = $ClndSelectedMonth Then
+			$ClndrOffdayCount = $ClndrOffdayCount +1
+		EndIf
+	EndIf
+EndIf
