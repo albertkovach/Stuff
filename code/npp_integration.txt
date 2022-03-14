@@ -1,0 +1,2 @@
+F5 ->
+python "$(FULL_CURRENT_PATH)"
