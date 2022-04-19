@@ -1,0 +1,7 @@
+Domain:target=zorb-srv	Domain Password	Operators	
+Gfhjkm_lkz-Jgthfnjhjd	
+Пароль_для-Операторов
+
+30.04.2019 10:07:25	SspiPfc		Enterprise	Very Strong	C:\Users\ORB User\AppData\Roaming\Microsoft\Credentials\6A51DFD031E0C6855C19C7080BF1DB70	
+Domain:target=FTP-SRV	Domain Password	Operators	Gfhjkm_lkz-Jgthfnjhjd	30.04.2019 10:22:54	SspiPfc		Enterprise	Very Strong	C:\Users\ORB User\AppData\Roaming\Microsoft\Credentials\89773372E822E940DC58EF82EEB8D69E	
+WindowsLive:target=virtualapp/didlogical	Generic	02svvjdpqtkdiyxp		24.07.2021 19:42:50	PersistedCredential		Local Machine		C:\Users\ORB User\AppData\Local\Microsoft\Credentials\DFBE70A7E5CC19A398EBF1B96859CE5D	
