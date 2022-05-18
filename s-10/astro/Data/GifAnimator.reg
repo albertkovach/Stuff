@@ -1,0 +1,82 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\SOFTWARE\Karlis Blumentals]
+
+[HKEY_CURRENT_USER\SOFTWARE\Karlis Blumentals\Easy GIF Animator]
+
+[HKEY_CURRENT_USER\SOFTWARE\Karlis Blumentals\Easy GIF Animator\5.0]
+"InterfaceLanguage"="Russian"
+"TextFontName"="Arial"
+"TextFontSize"="14"
+"TextFontBold"=dword:00000000
+"TextFontItalic"=dword:00000000
+"TextFontUnderline"=dword:00000000
+"TextTransparent"=dword:00000001
+"TextAntialias"=dword:00000000
+"TextCentered"=dword:00000000
+"TextImgCenter"=dword:00000001
+"TextHasShadow"=dword:00000000
+"FormVersion"="0"
+"Flags"="0"
+"ShowCmd"="1"
+"PixelsPerInch"="96"
+"MinMaxPos(1920x1080)"="-1,-1,-1,-1"
+"MinMaxPos"="-1,-1,-1,-1"
+"NormPos(1920x1080)"="294,147,1244,847"
+"NormPos"="294,147,1244,847"
+"Visible"="0"
+"TextEffFontName"="Arial"
+"TextEffFontSize"="16"
+"TextEffFontBold"=dword:00000000
+"TextEffFontItalic"=dword:00000000
+"TextEffFontUnderline"=dword:00000000
+"TextEffTextW"="Text"
+"TextEffAntialias"=dword:00000000
+"WelcomeScreen"=dword:00000001
+"UseWizard"=dword:00000001
+"ColorReduction"=dword:00000001
+"Dithering"=dword:00000000
+"TipNumber"=dword:00000000
+"ImageEditor"=""
+"DefaultForever"=dword:00000001
+"DefaultRepeatCnt"=dword:00000001
+"DefaultDelay"=dword:000001f4
+"ShowFrameEditingMsg"=dword:00000001
+"BlankFrameWidth"=dword:000000c8
+"BlankFrameHeight"=dword:000000c8
+"BrushSize"=dword:00000001
+"BrushSmooth"=dword:00000001
+"BrushStyle"=dword:00000000
+"ShapeWidth"=dword:00000001
+"ShapeSmooth"=dword:00000001
+"ShapeFill"=dword:00000000
+"LineWidth"=dword:00000001
+"LineSmooth"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Karlis Blumentals\Easy GIF Animator\5.0\MRU]
+"MRU1"="C:\\Users\\ORB User\\Desktop\\NORMAL ENGINE.gif"
+"MRU2"="C:\\Users\\ORB User\\Desktop\\DEFECTIVE IGNITION. if needle moves slowly between 14 and 16 at normal idle, check ignition components (plug gaps closed up or fouled,contacts not synchronized)..gif"
+"MRU3"="C:\\Users\\ORB User\\Desktop\\BURNT VALVE.  Needle drops regularly by several points at idle speed..gif"
+"MRU4"="C:\\Users\\ORB User\\Desktop\\WORN VALVE GUIDES.gif"
+
+[HKEY_CURRENT_USER\SOFTWARE\Karlis Blumentals\Easy GIF Animator\5.0\notify]
+"notification-related-products-1"=hex:2b,71,bb,db,72,d3,e5,40
+
+[HKEY_CURRENT_USER\SOFTWARE\Karlis Blumentals\Easy GIF Animator\5.0.ColorDialog_CustomColors]
+"Count"="16"
+"Item0"="ColorA=FFFFFFFF"
+"Item1"="ColorB=FFFFFFFF"
+"Item2"="ColorC=FFFFFFFF"
+"Item3"="ColorD=FFFFFFFF"
+"Item4"="ColorE=FFFFFFFF"
+"Item5"="ColorF=FFFFFFFF"
+"Item6"="ColorG=FFFFFFFF"
+"Item7"="ColorH=FFFFFFFF"
+"Item8"="ColorI=FFFFFFFF"
+"Item9"="ColorJ=FFFFFFFF"
+"Item10"="ColorK=FFFFFFFF"
+"Item11"="ColorL=FFFFFFFF"
+"Item12"="ColorM=FFFFFFFF"
+"Item13"="ColorN=FFFFFFFF"
+"Item14"="ColorO=FFFFFFFF"
+"Item15"="ColorP=FFFFFFFF"
