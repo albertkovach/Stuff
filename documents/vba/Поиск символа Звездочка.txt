@@ -1,0 +1,13 @@
+Sub FindAst()
+
+    For Each cell In ActiveSheet.UsedRange.Columns("B").Cells
+        x = InStr(cell.Value, "*")
+        If x > 0 Then
+            ActiveSheet.Cells(cell.Row, 6).Value = "asterisk !"
+        End If
+    Next cell
+
+    MsgBox "Ready !"
+
+    
+End Sub
